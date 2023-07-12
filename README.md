@@ -93,13 +93,13 @@ The base URL for all API endpoints is: `http://localhost:3000/product`
 #### 5. Update Product
 
 - **Endpoint:** `/product/{id}`
-- **Method:** PUT
+- **Method:** PATCH
 - **Description:** Updates an existing product with new information.
 - **Parameters:**
   - `{id}` (path parameter): The ID of the product to update.
 - **Request Body:** A JSON object representing the updated product.
 - **Response:** Returns a JSON object representing the updated product.
-- **Example:** `PUT http://localhost:3000/product/123`
+- **Example:** `PATCH http://localhost:3000/product/123`
   - Request Body:
     ```json
     {
